@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "4571",
+      "name": "Pauladas",
+      "password": "1234567890",
+      "email": "paulo@gmail.com"
+    },
+    {
+      "id": "49ec",
+      "name": "Joao",
+      "password": "123",
+      "email": "joao@gmail.com"
+    },
+    {
+      "id": "3b16",
+      "name": "Paulo",
+      "password": "12312",
+      "email": "paulo@gmail.com",
+      "tecnico": true
+    },
+    {
+      "id": "2b55",
+      "name": "Murilo",
+      "password": "567",
+      "email": "mutrilo@gmail.com",
+      "tecnico": false
+    },
+    {
+      "id": "0050",
+      "name": "sdf",
+      "password": "sdfdsfs",
+      "email": "dsfsdf@dsfsdf",
+      "tecnico": true
+    },
+    {
+      "id": "d054",
+      "name": "fsdfsdfsd",
+      "password": "sdad",
+      "email": "dfsfdds@gmail.com",
+      "tecnico": true
+    },
+    {
+      "id": "88fb",
+      "name": "Paulo Henrique",
+      "password": "123",
+      "email": "ph@gmail.com",
+      "tecnico": true
+    },
+    {
+      "id": "332c",
+      "name": "paulo",
+      "password": "123",
+      "email": "j@gmail.com",
+      "tecnico": false
+    },
+    {
+      "id": "76d7",
+      "name": "caio",
+      "password": "123",
+      "email": "3123@gmail.com",
+      "tecnico": true
+    },
+    {
+      "id": "4fc5",
+      "name": "PauloH",
+      "password": "567",
+      "email": "12312@df21",
+      "tecnico": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Poppins';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #ea03ff 0%, #0097ff 100%);
+    height: 100%;
+}
+input:focus{
+    outline: none;
+}
+.main-container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+}
+.greeting-container{
+    background-image: url(../img/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 50%;
+
+}
+.banner-layer {
+    background-color: rgba(25, 11, 122, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+.greeting-container h1{
+    color: #fff;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem 1rem;
+}
+.form-section{
+    display: flex;
+    flex-direction: column ;
+    margin-top: .5rem;
+}
+.form-section label{
+    margin-bottom: 1rem;
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.form-section input{
+    background: none;
+    border-bottom:1px solid #ccc;
+    color: #ccc;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.form-section input::placeholder{
+    color: #ccc;
+    font-weight: 300;
+}
+.form-container p {
+    color:#ccc;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: .7rem;
+}
+#active-new-password{
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.new-password-container{
+    border: 1px solid #0099ff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.new-password-container h5{
+   color: #0097ff;
+   font-weight: 500;
+}
+#senha{
+    color: #1b1b1b;
+    font-weight: 600;
+}
+.form-container input[type=submit]{
+    padding:.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #81d340;
+    color: #fff;
+}
+
+
+.form-password-container{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+.form-password-container h5{
+    color:#ccc;
+    font-size: 0.7rem;
+    font-weight: 500;
+
+}
+.form-password-container button{
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    background-color: #0099ff;
+    color: #fff;
+
+}
+.radio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    margin: .5rem 0;
+}
+.radio input[type=number]{
+    border: 1px solid #ccc;
+    width: 2rem;
+    height: 1.3rem;
+    text-align: center;
+}
+.radio label{
+    font-size: .7rem;
+    font-weight: 500;
+}
+.hide{
+    display: none;
+}

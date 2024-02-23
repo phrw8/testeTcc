@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de carros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <h5 class="bold"> Venda seu carro mais rápido!!</h5>
+    </div>
+    <div class="corpo">
+        <p> Formulário</p>
+        <form action="form/" method="post">
+            <div class="form">
+            <fieldset>
+                <legend class="bold">Venda seu carro!</legend>
+                <h3>Descreva as caracteristicas do carro</h3>
+                <div class="borda">
+                    <label class="bold" for="anuncio">Título do anuncio:</label>
+                    <input class="cor-texto" name="anucio" placeholder="Um titulo para anuciar seu carro" required/>
+                </div>
+
+                <div class="borda">
+                    <label class="bold"for="preco">Preço:</label>
+                    <input class="cor-texto" type="number" name="preco" placeholder="Defina um preço" required/>
+                </div>
+                
+                <div>
+                    <label class="bold"for="descricao">Descrição:</label>
+                    <textarea class="cor-texto" name="descricao" placeholder="Detalhes do veículo" required></textarea>
+                </div>
+
+                <div class="borda">
+                    <label class="bold" for="marca-veiculo">Marca</label>
+                    <input class="cor-texto" type="text" list="marcas"name="marca-veiculo" placeholder="Marca do veículo" required/>
+                    <datalist id="marcas">
+                        <option value="toyota"></option>
+                        <option value="honda"></option>
+                        <option value="mercedes-benz"></option>
+                    </datalist>
+                </div>
+                <div class="borda">
+                    <label class="bold"for="modelo-veiculo">Modelo</label>
+                    <input class="cor-texto" type="text" list="modelos"name="modelo-veiculo" placeholder="Modelo do veículo" required/>
+                    <datalist id="modelos">
+                        <option value="Corolla"></option>
+                        <option value="Hilux Cabine Dupla"></option>
+                        <option value="Corolla Cross"></option>
+                    </datalist>
+
+                </div>
+                <div class="borda">
+                    <label class="bold"for="km">Kilometragem:</label>
+                    <input class="cor-texto" type="number" name="km" placeholder="Kilometragem do veículo" required/>
+                </div>
+                <div class="borda">
+                    <label class="bold"for="data-compra">Data de compra:</label>
+                    <input class="cor-texto" type="date" name="data-compra" required/>
+                </div>
+                <div>
+                    <label class="bold"for="cambios">Tipo de câmbio</label>
+                        <div class="radio">
+                            <input class="cor-texto" type="radio" value="automatico" name="cambios" required/>
+                            <label for="cambios">Automatico</label>
+                        </div>
+                        <div class="radio">
+                            <input class="cor-texto" type="radio" value="manual" name="cambios"required/>
+                            <label for="cambios">Manual</label>
+                        </div>
+                        <div class="radio">
+                            <input class="cor-texto" type="radio" value="automatizado" name="cambios"required/>
+                            <label for="cambios">Automatizado</label>
+                        </div>
+                        <div class="radio">
+                            <input class="cor-texto" type="radio" value="CVT" name="cambios"required/>
+                            <label for="cambios">CVT</label>
+                        </div>
+                </div>
+                <div>
+                    <label class="bold"for="acessorios">Acessorios para seu carro</label>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="ar-condicionado"/>
+                        <label for="ar-condicionado">Ar condicionado</label>
+                    </div>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="banco-de-couro"/>
+                        <label for="banco-de-couro">Banco de couro</label>
+                    </div>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="motor-turbo"/>
+                        <label for="motor-turbo">Motor turbo</label>
+                    </div>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="ar-condicionado"/>
+                        <label for="ar-condicionado">Ar condicionado</label>
+                    </div>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="banco-de-couro"/>
+                        <label for="banco-de-couro">Banco de couro</label>
+                    </div>
+                    <div class="radio">  
+                        <input class="cor-texto" type="checkbox" name="acessorios[]" value="motor-turbo"/>
+                        <label for="motor-turbo">Motor turbo</label>
+                    </div>
+                        
+                </div>
+                <div>
+                    <label class="bold"for="imagem">Fotos do carros</label>
+                    <input class="cor-texto" type="file" name="imagem"/>
+                </div>
+                
+                <!-- enviar form -->
+                <input class="enviar" type="submit" value="Enviar"/>
+                
+            </fieldset>
+            </div>
+        </form>
+    </div>  
+</body>
+</html>

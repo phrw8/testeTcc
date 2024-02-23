@@ -1,0 +1,40 @@
+.main{
+    background-color: #19203b;
+    width: 33%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.title{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+
+}
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input{
+    height: 2.7rem;
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+
+}
+.label{
+    font-size: 1.6rem;
+}

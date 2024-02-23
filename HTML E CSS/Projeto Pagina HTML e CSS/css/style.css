@@ -1,0 +1,90 @@
+html{
+    font-family: Helvetica;
+    background-color: #e9e9e9;
+}
+.container{
+    max-width: 1200px;
+    margin:50px auto;
+    position: relative;
+    background-color: #fff;
+    
+}
+.cabeca{
+    background-color: black;
+    margin: 50px;
+    color: #DBFF00;
+    align-items: center;
+    justify-content: center;
+}
+.cabeca h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.cabeca h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 0px;
+    margin: 0px ;
+}
+.img-1{
+    text-align: center;
+    align-items: center;    
+}
+.conteudo-1 {
+    margin: 25px 50px;
+    padding: 25px 0;
+    border-top: 1px solid #cecdcd ;
+    border-bottom: 1px solid #cecdcd ; 
+}
+.conteudo-1 h2{
+    font-size: 30px;
+    margin: 0px;
+    
+}
+.conteudo-1 p{
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+.letra-musica{
+    background-color: #D9D9D9;
+    font-size: 34px;
+    margin: 50px;
+    padding: 25px 0;    
+}
+.letra-musica blockquote{
+    padding: 10px 32px 0px 32px;
+    font-weight: bold;
+}
+.letra-musica p{
+    font-size: 25px;
+    padding: 0px 0px 10px 63px;
+    
+}
+
+.curiosidades {
+    margin:0px 50px 0px 50px;
+    border-top: 1px solid #cecdcd ;
+    border-bottom: 1px solid #cecdcd ; 
+    padding: 25px 0;
+}
+.curiosidades h1{
+    font-size: 25px;
+}
+.curiosidades li{
+    font-size: 20px;
+    padding: 15px 36px 15px 36px;
+}
+.img-2{
+    padding: 25px 0;
+    text-align: center;
+    align-items: center;
+}
+.rodape{
+    margin: 50px;
+    font-size: 25px;
+}

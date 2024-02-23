@@ -1,0 +1,65 @@
+.resultContainer{
+    background-color: #19203b;
+    width: 33%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.btnVoltar{
+    padding: 0.7rem 1.2rem;
+    color: #fff;
+    background-color: #d80c0c;
+    border-radius: .5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.infoClass{
+    font-size: 1.2rem;
+    margin-bottom: .4rem;
+
+}
+.infoTitle{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: .6rem;
+  }
+
+.good{
+    color: rgba(7, 228, 44, 0.747);
+}
+.medium{
+    color: rgb(202, 223, 11);
+}
+
+.low{
+    color: rgb(245, 164, 13);
+}
+.high{
+    color: rgb(245, 164, 13);
+}
+
+.hiperHigh{
+    color: #d80c0c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

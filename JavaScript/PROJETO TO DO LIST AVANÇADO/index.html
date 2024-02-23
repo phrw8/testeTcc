@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- o codigo ta excluindo todos os dados do localstorage -->
+</head>
+<body>
+<div class="container-body">
+    <div class="container-main">
+        <header>
+            <h2>Todo Avançado</h2>
+        </header>
+        <hr>
+        <section class="addTask">
+            <label >Adicione sua tarerfa</label>
+            <div class="addInput">
+            <input type="text" name="addTask" id="addTask" placeholder="O que voce vai fazer?">
+            <button id="btn-submit"><i class='bx bx-plus' ></i></button>
+        
+        </section>
+        <section class="editTask hide">
+            <div>
+                <label >Edite sua tarefa:</label>
+                <div class="addInput">
+                <input type="text" name="addTask" id="editTask" placeholder="">
+                <button id="btn-edit"><i class='bx bx-plus' ></i></button>
+            </div>
+
+            <button id="btn-cancelar">Cancelar</button>
+        </section>
+        <hr>
+        <section class="filtros">
+            <div class="pesquisar">
+                
+                <label>Pesquisar:</label>
+                <div class="addInput">
+                <input type="text" id="src"  placeholder="Buscar...">
+                <button id="apagarSrc"><i class='bx bxs-tag-x' ></i></button>
+            </div>
+            </div>
+            <hr class="vertical">
+            <div class="filtrar">
+                <label>Filtrar:</label>
+                <div class="container-select">
+                <select name="select-filter" id="select-filter" >
+                    <option value="todos" >Todos</option>
+                    <option value="feitos">Feitos</option>
+                    <option value="nao-feitos">Nao feitos</option>
+                </select>
+            </div>
+            </div>
+        </section>
+        <section class="container-tarefas">
+            <!-- <div class="item doneTask">
+ <p>Limpar casa</p>
+                 <div class="buttons">
+                 <button id="concluido"><i class='bx bx-check' ></i></button>
+                 <button id="alterar"><i class='bx bxs-pencil' ></i></box-icon></button>
+                 <button id="excluir"><i class='bx bx-x' ></i></button>                
+                </div>
+            </div> -->
+            
+        </section>
+    </div>
+</div>
+
+    
+</body>
+</html>

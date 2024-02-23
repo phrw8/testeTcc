@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/script.js"defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>DevNotes</h3>
+            <div class="navSearch">
+                <label for=""><i id="btn-search" class='bx bx-search' ></i></label>
+                <input id="inp-search" type="text" placeholder="Busque por uma nota...">
+            </div>
+            <button id="exportar">Exportar</button>
+        </nav>
+    </header>
+    <main>
+        <section class="add-container"> 
+            <div class="addNote">
+                <input type="text" id="inp-add-note" placeholder="O que deseja anotar?">
+                <button id="submitNote"><i class='bx bx-plus' ></i></button>
+            </div>
+        </section>
+        <section class="container-notes">
+            <div class="note">
+                <textarea placeholder="Escreva ai patrao"></textarea>
+                <i class='bx bxs-pin'></i>
+                <div class="hover-icons">
+                    <i class='bx bx-x'></i>
+                    <i class='bx bxs-file-plus' ></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

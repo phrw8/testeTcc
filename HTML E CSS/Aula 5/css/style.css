@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+
+@media screen and (max-width:500px){
+    h1{
+        color:blue; 
+    }
+}
+@media screen and (min-width: 600px){
+    h2{
+        color:aqua;
+        background-color: antiquewhite;
+    }
+}
+p{
+    display:none;
+}
+@media  screen and (orientation:landscape) {
+    p{
+        display: block;
+    }
+}

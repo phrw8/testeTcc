@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+  overflow-x: hidden;
+}
+.main-container{
+    margin: 2rem 10rem;
+    width: 90%;
+    display: flex;
+
+}
+.info-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+/* Estilo padrão para o controle deslizante */
+.input input[type="range"] {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  margin: 10px 0;
+}
+
+/* Estilo da "track" (barra do controle deslizante) */
+.input input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1.5rem;
+  cursor: pointer;
+  background: #d3d3d3;
+}
+
+/* Estilo do "thumb" (ponteiro do controle deslizante) */
+.input input[type="range"]::-webkit-slider-thumb {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: #e9d60a;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+/* Estilo do "thumb" quando estiver sendo arrastado */
+.input input[type="range"]:active::-webkit-slider-thumb {
+  border-color: #45a049;
+}
+.input-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.input-section input[type="text"]{
+    border: 1px solid #000;
+    height: 1.7rem;
+    width: 1.7rem;
+    text-align: center;
+}
+.input input[type="checkbox"]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+    cursor: pointer;
+  align-self: first baseline ;
+  border-radius: 0%;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid #000;
+
+}
+.input input[type="checkbox"]:checked {
+  background-color: #223f4d; 
+}
+.input input[type="color"] {
+  border: 1px solid #000;
+}
+#color-value{
+  width: 5rem;
+}
+.preview-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quadrado{
+  width: 300px;
+  height: 300px;
+  background-color: #e9d60a;
+  margin-top: 3rem;
+
+}
+.result-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem 10rem;
+}
+.result{
+  border: 1px solid #e9d60a;
+  background-color: #ccc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

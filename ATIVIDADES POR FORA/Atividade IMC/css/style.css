@@ -1,0 +1,54 @@
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.input-group {
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px; /* Espaço entre os grupos de entrada (ajuste conforme necessário) */
+}
+
+.input {
+    width: 150px; /* Largura dos campos de entrada (ajuste conforme necessário) */
+}
+
+.user-label {
+    display: block;
+    margin-top: 5px; /* Espaçamento entre o campo de entrada e o rótulo (ajuste conforme necessário) */
+}
+
+.btn-submit {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+#res {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+img{
+    display: none;
+}

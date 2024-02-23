@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    position: relative;
+}
+.form-container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 40%;
+    background-color: #fff;
+    color: #0D324D;
+    padding: .5rem;
+    gap: 1rem;
+}
+.form label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.form input{
+    background-color: #fff;
+    color: #0D324D;
+    padding: .5rem;
+    border-radius: .2rem;
+    border: 1px solid #0D324D;
+}
+#btn-submit{
+    padding: .3rem 1rem;
+    color: #0D324D;
+    border: 1px solid #0D324D;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+#btn-submit:hover{
+    color: #fff;
+    background-color: #0D324D;
+}
+#btn-clear{
+    padding: .3rem 1rem;
+    color: #0D324D;
+    border: 1px solid #0D324D;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+#btn-clear:hover{
+    color: #fff;
+    background-color: #0D324D;
+}
+button{
+    font-size: 1.1rem;
+}
+
+#contant{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.card{
+    padding-bottom: 1.4rem;
+    max-height: 450px;
+    width: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(30,30,73,1) 34%, rgba(0,212,255,1) 100%);
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:space-between;
+    width: calc(100% - 1rem);
+    padding: .5rem;
+    height: 40%;
+}
+.nome{
+    font-size: 1.2rem;
+    color: #d3d3d3dc;
+    
+}
+.origem{                                                            
+        font-size: 1rem;
+        color: #bdbdbddc;
+}
+.especie{                                                            
+    font-size: 1rem;
+    color: #bdbdbddc;
+}
+.status{                                                            
+    font-size: 1rem;
+    color: #bdbdbddc;
+}
+.img{
+    border: 1px solid #ccc;
+    margin: .5rem;
+    width: calc(100% - 1rem);
+    height: 60%;
+    border-radius: .5rem .5rem 0 0;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.img:hover{
+    margin: .7rem;
+    width: calc(100% - 1.4rem);
+    transition: all ease 200ms;
+}
+.desc-container{
+    border: 1px solid #ccc;
+    width: 600px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    word-wrap: break-word;
+    overflow: auto;
+    background-color: #6898bb5b;
+    height: 450px;
+}
+.more-container{
+    display: flex;
+    gap: 2rem;
+    align-self: center;
+}
+.desc-elements{
+    color: #0D324D;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.btn-voltar{
+    height: 2.5rem;
+    padding: .3rem 1rem;
+    color: #0D324D;
+    border: 1px solid #0D324D;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-voltar:hover{
+    color: #fff;
+    background-color: #0D324D;
+
+}
+
+@media (max-width:1500px){
+    .form{
+        width: 50%;
+
+    }
+    .form label{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:1290px){
+    #contant{
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    .form{
+        width: 70%;
+
+    }
+}
+@media (max-width:1170px){
+    .form label{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:1005px){
+    .form-container{
+        height: 200px;
+    }
+    .form{
+        width: 95%;
+    }
+    .form label{
+        font-size: 1.1rem;
+    }
+    .form input{
+        width: 40%;
+    }
+    button{
+        font-size: 1rem;
+    }
+}
+@media (max-width:700px){
+    .form{
+        flex-direction: column;
+        width: 90%;
+    }
+    .form label{
+        font-size: 1.4rem;
+        margin-top: .5rem;
+    }
+    .form input{
+        width: 70%;
+    }
+}

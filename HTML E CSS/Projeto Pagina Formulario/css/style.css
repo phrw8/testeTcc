@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E1E1E1;
+}
+.cabecalho{
+    height:150px;
+    background-color: #7536C6;
+    font-size: 25px;
+    color: #fff;
+}
+.cabecalho h5{
+    padding: 20px;
+}
+.corpo{
+    max-width: 60%;
+    margin:0px auto;
+    position: relative;
+    background-color: #FFF;
+    margin-top: -90px;
+}
+.corpo p{
+    font-weight: 300px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    margin: 20px;
+    font-size: 25px;
+}
+div input,
+div label{
+    display:block;
+    padding: 10px;
+}
+ input{
+    border: 0 none;
+    outline: 0;
+}
+input [type=text]{
+    width: 50%;
+    border-bottom: 1px solid #979494 ; 
+}
+textarea{
+    resize: none;
+    width: 50%;
+    height: 100px;
+}
+.radio label,
+.radio input{
+    display: inline;
+}
+.bold{
+    font-weight: bold;
+}
+.cor-texto{
+    color: #979494;
+}
+fieldset{
+    border: none;
+    margin: 30px;
+}
+legend{
+    font-size: 35px;
+}
+.enviar{
+    background-color: #7536C6;
+    color: #FFF;
+    height: 35px;
+    margin: 15px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="info-container">
+            <h3>Configurações de Box Shadow</h3>
+            <div class="input">
+                <label for="">Deslocamento horizontal</label>
+                <div class="input-section">
+                    <input type="range" max="100" min="-100" value="30" id="des-x">
+                    <div class="px">
+                        <input type="text" value="30" id="x-value">
+                        <span>px</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="input">
+                
+                <label for="">Deslocamento vertical</label>
+                <div class="input-section">
+                <input type="range" max="100" min="-100" value="35" id="des-y">
+                <div class="px">
+                    <input type="text" id="y-value" value="35">
+                    <span>px</span>
+                </div>
+                </div>
+            </div>
+            <div class="input">
+                
+                <label for="">Intensidade do borrão(Blur)</label>
+                <div class="input-section">
+                <input type="range" max="100" min="0" value="50" id="blur">
+                <div class="px">
+                    <input type="text" id="blur-value"value="0">
+                    <span>px</span>
+                </div>
+                </div>
+            </div>
+            <div class="input">
+                
+                <label for="">Intensidade de espalhamento (Spread)</label>
+                <div class="input-section">
+                <input type="range" max="100" min="-100" value="0" id="spread">
+                <div class="px">
+                    <input type="text" id="spread-value" value="0">
+                    <span>px</span>
+                </div>
+                </div>
+            </div>
+            <div class="input">
+                
+                <label for="">Cor da sombra</label>
+                <div class="input-section">
+                <input type="color" id="color">
+                    <input type="text" id="color-value" value="#00000">
+                </div>
+            </div>
+            <div class="input">
+                
+                <label for="">Opacidade</label>
+                <div class="input-section">
+                <input type="range" max="1" min="0" value="1" step="0.01" id="opacity">
+                <div class="px">
+                    <input type="text" id="opacity-value" value="1">
+                    <span>px</span>
+                </div>
+                </div>
+            </div>
+            <div class="input">
+                <label for="">Sombra interna</label>
+                <input type="checkbox" id="sombra-interna">
+                
+            </div>
+        </div>
+        <div class="preview-container">
+            <h3>Preview do efeito gerado:</h3>
+            <div class="quadrado"></div>
+
+        </div>
+    </div>
+    <div class="result-container">
+        <h3>Copie e cole no seu arquivo de CSS</h3>
+        <div class="result">
+            <p id="box-shadow">box-shadow:</p>
+            <p id="webkit">-webkit-box-shadow:</p>
+            <p id="moz">-moz-box-shadow:</p>
+        </div>
+        <p id="copy-alert">Clique no quadro acima para copiar as regras</p>
+    </div>
+    
+</body>
+</html>

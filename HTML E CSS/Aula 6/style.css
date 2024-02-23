@@ -1,0 +1,125 @@
+.collumn{
+    display: flex;
+    flex-direction: column;
+}
+.collumn .box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 40px;
+    border:1px solid  #000000;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrap .box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 33%;
+    border:1px solid  #000000;
+}
+.justify-content{
+    display: flex ;
+    justify-content: center;
+    border: 1px solid #bd1313;
+    height: 100px;
+}
+.justify-content .box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 40px;
+    border:1px solid  #000000;
+}
+.align-itens {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #bd1313;
+}
+.align-itens .box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 40px;
+    border:1px solid  #000000;
+}
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border:2px solid  #000000;
+
+}
+.gap .box {
+    background-color: #bd1313;
+    height: 40px;
+    width: 30%;
+    border:1px solid  #000000;
+}
+.order .box-1,
+.order .box-2,
+.order .box-3 {
+    background-color: #bd1313;
+    height: 40px;
+    width: 30%;
+    border:1px solid  #000000;
+}
+
+.order {
+    display: flex;
+}
+.order .box-1{
+    order:1;
+}
+.order .box-2{
+    order:2;
+}
+.order .box-3{
+    order:3;
+}
+.grow{
+    display: flex;
+}
+.grow .box,
+.grow .bigger-box{
+    background-color: #bd1313;
+    height: 40px;
+    border:1px solid  #000000;
+}
+.grow .box{
+    flex-grow: 1;
+}
+.grow .bigger-box{
+    flex-grow: 2;
+}
+.basis{
+    display: flex;
+}
+.basis .box,
+.basis .basis-box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 33%;
+    border:1px solid  #000000;
+}
+.basis .basis-box{
+   flex-basis: 100px;
+}
+.align-self{
+    height: 300px;
+    border:1px solid  #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-self .diferente,
+.align-self .box{
+    background-color: #bd1313;
+    height: 40px;
+    width: 40px;
+    border:1px solid  #000000;
+
+}
+.align-self .diferente{
+    align-self: end;
+}

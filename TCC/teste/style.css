@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Inspiration;
+    src: url(../fontes/Inspiration-Regular.ttf);
+}
+body{
+    overflow-x: hidden;
+    
+}
+.img-user{
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid #2979c2c7;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    background: linear-gradient(360deg, #82C3FF 0%, #2979c2c7 70%);
+    padding: 0.4rem 0.8rem ;
+    transition: all 0.5s ease;
+}
+.sidebar.active ~ .main-content{
+    left: 250px;
+    width:calc(100% - 250px);
+}
+
+.sidebar.active{
+    width: 250px;
+}
+.sidebar #btn{
+    position: absolute;
+    color: #fff;
+    top: .4rem;
+    left: 50%;
+    font-size: 2rem;
+    line-height: 50px;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+.sidebar.active #btn{
+    left: 90%;
+}
+
+.sidebar .header .logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar .header .logo span{
+    font-size: 2rem;
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: Poppins;
+}
+
+.sidebar.active .header .logo{
+    opacity: 1;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin: 1rem 0 0;
+    width: 100%;
+}
+.profile .text-profile p{
+    color: #fff;
+    opacity: 1;
+    margin:0.2rem 1rem;
+}
+.bold{
+    font-weight: 600;
+}
+.sidebar p {
+   display: none;
+}
+.sidebar.active p{
+    opacity: 1;
+    display: block;
+    
+}
+.sidebar ul {
+     padding:10px
+
+}
+.sidebar ul li {
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto .8rem;
+    line-height: 50px;
+
+}
+.sidebar ul li a {
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 0.8rem ;
+    padding: 0.2rem;
+}   
+.sidebar ul li a:hover {
+    background-color: #fff;
+    color: #12171e;
+}
+
+.sidebar ul li a i{
+    min-height: 50px;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    padding-right: 2rem;
+}
+.sidebar .nav-item{
+    opacity: 0;
+}
+.sidebar.active .nav-item{
+    opacity: 1;
+}
+.sidebar ul li .toolt{
+    position: absolute;
+    left: 145px;
+    top: 1.6rem ;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+    border-radius: .6rem;
+    padding: .4rem 1.2rem;
+    line-height: 2rem;
+    z-index: 20;
+    opacity: 0;
+}
+.sidebar ul li:hover .toolt{
+    opacity: 1;
+}
+.sidebar.active ul li .toolt{
+    display: none;
+}
+.main-content{
+    position: relative;
+    min-height: 120vh;
+    top: 0;
+    transition: all 0.5s ease;
+    left: 80px;
+    width: calc(100%-80px);
+    
+}
+.container-head{
+    display: flex; 
+    background: linear-gradient(180deg, #82C3FF 0%, rgba(130, 195, 255, 0) 90%);
+    height: 8rem;
+    justify-content: center;
+    align-items: end;
+}
+.container-head p{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.container-head .bold{
+    color: #12171e;
+    font-weight: 600;
+    text-shadow: none;
+}
+main .container{
+    margin-bottom: -14rem;
+}
+footer .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    height: 700px;
+    background-image: linear-gradient(to top, transparent 40%, #fff 100%), url(img/idoso-rodape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -17rem;
+}
+footer .container-fluid .text-footer{
+    margin-bottom: 4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 8rem;
+}
+footer .container-fluid h2{
+    font-size: 5rem;
+    font-family: Inspiration;
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+}
+footer .container-fluid p{
+    font-size: 3rem;
+    font-family: Poppins;
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+    
+
+
+
+
+
+
+
+

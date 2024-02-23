@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+            <h2>Formularios</h2>
+        <form>
+            <div>
+                <label>Nome</label>  <!-- Descreve oq é necessario por no campo -->
+                <input type="text"> <!-- Cria a caixa para botar os dados -->
+            </div>
+            
+        </form>
+
+    </div>
+        <div>
+            <h2>Formulario com Post e Get</h2>
+            <form action="Lugar onde o formulario vai ser mandado" method="Modo como as informações vao ser mandadas">
+                <!-- Get:Manda pelo url, informações n muito perigosas Post:Manda pelo proprio site, pode mandar mais informação, informações podem ser importantes -->
+                <label for="age"> Idade</label>
+                <input type="text" name="age"/>
+
+                <!-- Opções padroes-->
+                <div>
+                    <label for="profissao">Profissao</label>
+                        <select name="profissao" >
+                            <option value="programador">Programador</option>
+                            <option value="padeiro">Padeiro</option>
+                            <option value="medico">Medico</option>
+                        </select>
+                <div>
+
+                <!-- Selected  -->
+                <div>
+                    <label for="comida-favorita">Comida favorita</label>
+                        <select name="comida-favorita" >
+                            <option value="pizza">Pizza</option>
+                            <option value="hamburguer">Hamburguer</option>
+                            <option value="cachorro-quente"selected>Cachorro quente</option>
+                        </select>
+                </div>
+                <!-- Multiplos selected -->
+                <div>
+                    <label for="itens">Itens</label>
+                        <select name="itens" multiple>
+                            <option value="shampoo">Shampoo</option>
+                            <option value="sabonete">Sabonete</option>
+                            <option value="escova-dentes">Escova de dentes</option>
+                        </select>
+                </div>
+                <!-- Comentario dentro de form -->
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario"></textarea>
+                </div>
+
+                <!-- Fieldset e Legend agrupando forms -->
+                <div>
+                    <fieldset>
+                        <legend>Preencha esses campos:</legend>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome">
+                            <label for="sobreno">Sobrenome</label>
+                            <input type="text" name="sobrenome">
+                    </fieldset>
+                </div>
+
+                <!-- Datalist, texto e opçoes predeterminadas juntos -->
+                <div>
+                    <label for="sabores">Escolha um sabor:</label>
+                    <input type="text" list="sabores"name="sabores"/>
+                    <datalist id="sabores">
+                        <option value="cereja"></option>
+                        <option value="chocolate"></option>
+                        <option value="abacaxi"></option>
+                        <option value="leite-condensado"></option>
+                    </datalist>
+                </div>
+                <div>
+
+                <!-- input type password -->
+                    <label for="senha">Digite sua senha</label>
+                    <input type="password" name="senha"/>
+                </div>
+                <!-- Radio input -->
+                <div>
+                    <label for="modelos-carros">Escolha o modelo de seu carro</label>
+                        <div class="radio">
+                            <input type="radio" value="BMW" name="modelos-carros"/>
+                            <label for="modelos-carros">BMW</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" value="toyota" name="modelos-carros"/>
+                            <label for="modelos-carros">Toyota</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" value="ferrari" name="modelos-carros"/>
+                            <label for="modelos-carros">Ferrari</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" value="porshe" name="modelos-carros"/>
+                            <label for="modelos-carros">Porshe</label>
+                        </div>
+                </div>
+                <!-- selecionar varios objetos -->
+                <div>
+                    <label for="radio">Acessorios para seu carro</label>
+                        <div class="radio">  
+                            <input type="checkbox" name="acessorios[]" value="ar-condicionado"/>
+                            <label for="ar-condicionado">Ar condicionado</label>
+                        </div>
+                        <div class="radio">  
+                            <input type="checkbox" name="acessorios[]" value="banco-de-couro"/>
+                            <label for="banco-de-couro">Banco de couro</label>
+                        </div>
+                        <div class="radio">  
+                            <input type="checkbox" name="acessorios[]" value="motor-turbo"/>
+                            <label for="motor-turbo">Motor turbo</label>
+                        </div>
+                        
+                    </div>
+                <!-- Enviar arquivos -->
+                <div>
+                    <label for="imagem">Insira sua imagem</label>
+                    <input type="file" name="imagem"/>
+                </div>
+
+                <!-- placeholder, escrver denytro da box sem ser um valor real -->
+                <div>
+                    <label for="trabalho">No que você trabalha</label>
+                    <input type="Text" name="trabalho" placeholder="Seu atual serviço"/>
+                </div>
+                <!-- Required, obrigar ocupar o campo -->
+                <div>
+                    <label for="numero">Telefone</label>
+                    <input type="number" name="numero" placeholder="Celular" required/>
+                </div>
+                <!-- Resetar form -->
+                <input type="reset" name="resetar" value="Resetar"/>
+                <!-- enviar form -->
+                <input type="submit" value="Enviar"/>
+
+            </form>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+.app{
+    /* background-color: rgb(255, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContainer{
+    width: 40%;
+    border: 1px solid #012F59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 55vh;
+}
+.iconContainer{
+    display: flex;
+    width: 80%;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+}
+.icon{
+    font-size: 2rem;
+    color: #012F59;
+}
+.divisao{
+    width: 2rem;
+    height: 1px;
+    background-color: #012F59;
+}
+.title{
+    font-size: 1.5rem;
+    color: #012F59;
+    font-weight: 600;
+}

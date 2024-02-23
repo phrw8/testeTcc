@@ -1,0 +1,15 @@
+#clearBtn{
+    background-color: #444;
+}
+button{
+    opacity: .8;
+    padding: 0.7rem 1.2rem;
+    color: #fff;
+    background-color: #ad1616;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+button:hover{
+    opacity: 1 ;
+}

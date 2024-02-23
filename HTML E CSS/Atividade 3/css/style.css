@@ -1,0 +1,16 @@
+#elemento-1{
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    outline: 2px solid aqua;
+    border-radius: 12px;
+    margin: 20px;
+    background-color: #0099ff;
+}
+
+.Texto{
+    font-size: 40px;
+    color: #fff;
+}

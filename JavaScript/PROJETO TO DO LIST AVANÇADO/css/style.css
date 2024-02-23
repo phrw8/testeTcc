@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Poppins';
+
+}
+i{
+    font-size: 1.2rem;
+}
+body{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.container-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-main{
+    width: 35%;
+    background-color: #fff;
+    border-radius: 1rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+hr{
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+}
+header{
+    color: #0c0c0c; 
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+
+}
+header h2{
+    font-weight: 600;
+}
+.addTask, .editTask{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: .3rem;
+
+}
+#btn-cancelar{
+    margin-top: 1rem;
+    width: auto;
+    padding: 0  .3rem;
+}
+
+.filtros{
+    display: flex;
+    padding: 0 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.pesuisar{
+    width: 70%;
+}
+.addInput{
+    display: flex;
+    gap: .3rem;
+    
+}
+#addInput{
+    width: 40%;
+    
+}
+#src{
+    width: 60%;
+}
+.vertical{
+    height: 4.5rem;
+    margin-top: -.3rem;
+}
+section input{
+    padding: .4rem .6rem;
+    border-radius: .2rem;
+    font-size: .74rem;
+    border: 1px solid #000;
+}
+section button{
+    border: 2px solid #102f5e;
+    color: #102f5e;
+    width: 2.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #102f5e;
+    color: #fff;
+  }
+  
+
+.filtrar select{
+    border: 1px solid #000;
+    padding: .4rem .6rem;
+    border-radius: .2rem;
+    font-size: .74rem;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 1.5rem;
+    height: 4rem;
+    color: #31567a;
+}
+.item h3{
+    border: none;
+    color: #102f5e;
+    font-size: 1rem;
+}
+.doneTask{
+    background-color: #31567a;
+    color: #fff;
+
+}
+.doneTask h3{
+    font-style: italic;
+    text-decoration: line-through;
+    background-color: #31567a;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    gap: .7rem;
+}
+.container-tarefas{
+    overflow: auto;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+

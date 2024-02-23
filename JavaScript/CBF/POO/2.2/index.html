@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="criarCarro" id="criarCarro">
+        <div class="campoForm">
+            <label for="">Nome</label>
+            <input type="text" name="f-nome" id="f-nome" value="">
+        </div>
+        <div class="campoForm">
+            <label for="">Portas</label>
+            <input type="number" name="f-portas" id="f-portas" value="">
+        </div>
+        <div class="campoForm">
+            <label for="">Cor</label>
+            <input type="text" name="f-cor" id="f-cor" value="">
+        </div>
+        <div class="campoForm">
+            <label for="">Blindagem</label>
+            <input type="number" name="f-blindagem" id="f-blindagem" value="0" disabled>
+        </div>
+        <div class="campoForm">
+            <label for="">Munição</label>
+            <input type="number" name="f-municao" id="f-municao" value="0" disabled>
+        </div>
+        <div class="campoForm">
+            <label for="">Tipo</label>
+            <div class="radio">
+                <input type="radio" name="f-tipo" id="f-tipoMilitar" value="m">Militar
+            </div>
+            <div class="radio">
+                <input type="radio" name="f-tipo" id="f-tipoNormal" value="n">Normal
+            </div>
+            <div class="campoForm">
+                <button id="btn-addCarro">Adicionar</button>
+            </div>
+        </div>
+        <div class="carros">
+            <!-- <div class="carro">Golf</div> -->
+        </div>
+    </div>
+    
+</body>
+</html>

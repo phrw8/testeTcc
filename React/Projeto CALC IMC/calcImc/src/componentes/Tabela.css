@@ -1,0 +1,38 @@
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  /* Estilos para o cabeçalho da tabela */
+  thead {
+    text-align: center;
+  }
+  
+  /* Estilos para as células do cabeçalho */
+  th {
+    padding: .5rem;
+    text-align: center;
+    font-size: .8rem;
+  }
+  
+  /* Estilos para as células da tabela */
+  td {
+    border-bottom: 1px solid #ecec;
+    font-size: .8rem;
+    padding: .6rem;
+  }
+  tr{
+    margin-bottom: 1rem;
+  }
+  .rankTitle{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+    color: #ccc;
+  }

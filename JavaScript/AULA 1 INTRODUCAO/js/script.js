@@ -1,0 +1,1 @@
+console.log("Essa string esta dentro de um arquivo separado")

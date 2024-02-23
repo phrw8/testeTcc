@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: #202124;
+    color: #fff;
+}
+header nav{
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+nav h3{
+    font-weight: 600;
+}
+nav input{
+    padding: .4rem 1rem;
+    border-radius: .2rem;
+    width: 80%;
+    background-color:  #525356;
+}
+.navSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    width: 33%;
+}
+#exportar{
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+    background-color: #202124;
+    color: #fff;
+    cursor: pointer;
+}
+.add-container{
+    width: 100%;
+    border-bottom:1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.addNote{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    width: 33%;
+}
+.addNote input{
+    padding: .4rem 1rem;
+    border-radius: .2rem;
+    width: 80%;
+    background-color:  transparent;
+    border: 1px solid #000;
+    color: #fff;
+}
+.addNote button{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #000;
+    border-radius: .2rem;
+    background-color: #333;
+    color: #fff;
+}
+.container-notes{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+.note{
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #fff;
+    min-height: 200px;
+    width: 240px;
+    border-radius: 1rem;
+    display: block;
+}
+.note textarea{
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    resize: none;
+}
+.bxs-pin{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+.hover-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    opacity: 0;
+}
+.hover-icons i{
+    cursor: pointer;
+}
+.note:hover > .hover-icons{
+    opacity: 1;
+}
+.fixed{
+    background-color: #3c3c3f;
+}

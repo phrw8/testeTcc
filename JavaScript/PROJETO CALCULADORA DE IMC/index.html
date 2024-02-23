@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main-container">
+        <section class="container-calculadora">
+            <h3>Calculadora de IMC</h3>
+            <div class="input-valores">
+                <label for="input-altura">Altura</label>
+                <input name="altura" type="number" placeholder="Exemplo 174" id="input-altura" >
+            </div>
+            <div class="input-valores">
+                <label for="input-peso">Peso</label>
+                <input name="altura" type="number" placeholder="Exemplo 80.5" id="input-peso">
+            </div>
+
+            <div class="botoes">
+                <button id="btn-calcular">Calcular</button>
+                <button id="btn-limpar">Limpar</button>
+            </div>
+        </section>
+    </main>
+    <div id="result-container">
+        <section class="container-resultado">
+            <div class="result">
+                <h2>Seu IMC é <span id="IMC-result">12</span></h2>
+                <h3>Situação atual: <span id="IMC-classificacao"></span></h3>
+            </div>
+            <div class="tabela-classificacao">
+                <h3>Confira as classificações</h3>
+                <div id="imc-table">
+                    <div class="t-header">
+                        <h3>IMC</h3>
+                        <h3>Classificação</h3>
+                        <h3>Obesidade</h3>
+                    </div>
+                    <div class="t-row">
+                        <h3>< 18.5</h3>
+                        <h3 >Magreza</h3>
+                        <h3>0</h3>
+                    </div>
+                    <div class="t-row">
+                        <h3>18.5=< e <=24.9</h3>
+                        <h3 >Normal</h3>
+                        <h3>0</h3>
+                    </div>
+                    <div class="t-row">
+                        <h3>25=< e <=29.9</h3>
+                        <h3>Sobrepeso</h3>
+                        <h3>1</h3>
+                    </div>
+                    <div class="t-row">
+                        <h3>30=< e <=39.9</h3>
+                        <h3>Obesidade</h3>
+                        <h3>2</h3>
+                    </div>
+                    <div class="t-row">
+                        <h3>40=<</h3>
+                        <h3>Obesidade Grave</h3>
+                        <h3>3</h3>
+                    </div>
+
+                </div>
+
+                <button id="btn-voltar">Voltar</button>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

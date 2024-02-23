@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+h3{
+    color: #0B0B0B;
+    font-weight: bold;
+    font-size: 25px;
+}
+#container-header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 10px 0 50px;
+    border: solid 2px #BEBEBE;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#container-header h3{
+    margin: 10px 40px;
+}
+#container-header ul{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+    margin: 0 20px;
+}
+#container-header li{
+    color: #727272;
+    margin: 10px ;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#container-main{
+    width: 60%;
+}
+#container-main section{
+    margin:0 0 80px;
+    width: 100%;
+
+}
+#container-main figure img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#container-main section h2{
+    font-size: 30px;
+    font-family: Inika;
+    font-weight: 700;
+
+}
+#container-main section p{
+    margin:15px 0;
+    color: #626262;
+
+}
+#container-main section p{
+    margin:25px 0;
+
+}
+#container-main section .author-name{
+    color: #303030;
+    font-size: 20px;
+    font-family: Inika;
+    font-weight: 700;
+}
+#container-main section .ler-mais{
+    font-size: 20px;
+    font-family: Inika;
+    font-weight: 700;
+}
+#container-main section .ler-mais a{
+    text-decoration: none;
+    color: #A0A0A0;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 25%;
+}
+.container-busca{
+    width: 100%;
+    border: 1px solid #BEBEBE;
+    padding: 30px;
+}
+.container-busca form{
+    margin-top: 30px;
+    display: flex;
+    gap: 0;
+    border: 1px solid #BEBEBE;
+    width: 90%;
+}
+.container-busca .text{
+    font-size: 15px;
+    padding: 5px;
+    color: #727272;
+    font-weight:  700;
+    width: 70%;
+    
+}
+.container-busca .submit{
+    font-size: 15px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #7EB2FF;
+    width: 30%;
+    
+}
+.container-busca input {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.container-busca input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.container-categorias{
+    width: 100%;
+    border: 1px solid #BEBEBE;
+    padding: 30px;
+}
+.container-categorias ul{
+    margin:20px 0;
+}
+.container-categorias li{
+    margin:20px 0;
+    list-style: none;
+    
+}
+.container-categorias a{
+    text-decoration: none;
+    color: #6A6A6A;
+    font-size: 17.91px;
+    font-weight: 700;
+}
+.container-tags{
+    width: 100%;
+    border: 1px solid #BEBEBE;
+    padding: 30px;
+}
+.container-tags ul{
+    margin:20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.container-tags li{
+    padding: 8px;
+    background-color: #C8C8C8;
+    border-radius: 3px;
+    list-style: none;
+    text-align: center;
+}
+.container-tags a{
+    text-decoration: none;
+    color: #6A6A6A;
+    font-size: 17.91px;
+    font-weight: 700;
+}
+footer{
+    border-top: 1px solid #BEBEBE;
+    text-align: center;
+    height: 200px;
+}
+footer h3{
+    margin: 50px 0 0 ;
+}
+footer p{
+    margin: 10px;
+    color: #6A6A6A;
+    font-weight:700 ;
+}
+@media (max-width:1100px){
+    .container-busca{
+        padding: 20px;
+    }
+    .container-busca form{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media (max-width:900px){
+    .container{
+        flex-direction: column;
+        
+    }
+    #container-main{
+        width: 100%;
+        padding: 2rem;
+    }
+    aside{
+        width: 100%;
+        text-align: center;
+    }
+    aside .container-busca{
+        padding: 2rem;
+    }
+    aside .container-busca form{
+        height: 50px;
+    }
+    aside .container-busca  input{
+        font-size: 17px;
+    }
+}
+@media (max-width:576px){
+    #container-header h3{
+      margin:0;
+    }
+    #container-header ul{
+        margin: 0;
+    }
+    #container-header li{
+        margin: 0 4px 0 0;
+    }
+}
+
+
+
+
+
+
+
+

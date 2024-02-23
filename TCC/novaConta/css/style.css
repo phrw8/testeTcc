@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: Inspiration;
+    src: url(../../fontes/Inspiration-Regular.ttf);
+}
+.container{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+
+}
+.container-main,
+.background-azul,
+.background-branco{
+    position: absolute;
+}
+.background-branco{
+    background-color: #fff;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    right: 50%;
+    
+}
+.background-azul{
+    background:linear-gradient(318deg, #1F90F8 0%, rgba(30.95, 143.59, 247.56, 0) 100%);
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    align-self:self-start;
+    left: 50%;
+}
+#container-main{
+    width: 70%;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 120px;
+    box-shadow: 12px 11px 21px rgba(0, 0, 0, 0.25);
+}
+#container-header{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    position: relative;
+    z-index: 1;
+    
+}
+#container-header h1{
+    z-index: 3;
+    color: #fff;
+    font-size: 90px;
+    font-family: Inspiration;
+    font-weight: 300;
+    text-shadow: 25px 3px 3px rgba(130, 195, 2555, 40%) 
+    
+}
+#container-header .efeito-foto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(136deg, rgba(130, 195, 255, 0.34) 0%, rgba(15.94, 14.54, 14.54, 0.34) 62%);
+    z-index: 2;
+
+}
+#container-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    width: 50%;
+}
+#container-conteudo h4{
+   margin: 20px;
+   font-size: 20PX;
+}
+#container-conteudo p,
+#container-conteudo h4{
+    font-weight: 700;
+    color: #012F59;
+ }
+ 
+
+#container-conteudo form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-conteudo fieldset{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: none;
+    padding: 0;
+}
+#container-conteudo fieldset input{
+    margin: 0px;
+    width: 40%;
+}
+#container-conteudo input{
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 6px 4px 16px rgba(0, 0, 0, 0.25);
+     border-radius: 22.07px;
+     color: #012F59;
+     text-align: center;
+}
+#container-conteudo input::placeholder{
+    text-align: center;
+    color: #012F59;
+}
+#container-conteudo .btn-criar{
+    background-color: #012F59;
+    color: #fff;
+    width: 60%;
+}
+#container-conteudo .ou{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.container-apps-login {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+  
+  }
+
+  .container-apps-login i{
+    width: 40px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */
+   
+  }
+.card{
+    box-shadow: 9px 11px 27px 2px rgba(130, 195, 255, 0.49);
+    border-radius: 8.54px;
+    margin-top: 10px;
+}
+.card-img{
+    width: 25%;
+    margin-top: -50px;
+
+}
+.h3-card{
+    color: #012F59;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.h4-card{
+    color: rgba(1, 47, 89, 0.60);
+    font-size: 16px;
+    font-weight: 600;
+}
+.star i{
+    margin: 0;
+    color: #EFCE4A;
+    
+}
+.card-footer{
+    margin-bottom: 25px;
+}
+.experiencias{
+    font-size: 10px;
+}
+.exp {
+    color: #012F59;
+    font-size: 17.79px;
+    font-weight: 600;
+}
+
+
+
+

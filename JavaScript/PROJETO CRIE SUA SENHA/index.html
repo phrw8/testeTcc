@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="js/script.js"defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="greeting-container">
+            <div class="banner-layer">
+            <h1>Seja bem-vindo</h1>
+        </div>
+        </div>
+        <div class="form-container">
+            <h3>Crie sua conta</h3>
+            <p>Resgistre para utilizar todas as funcionalidades do sistema</p>
+            <form action="">
+                <div class="form-section">
+                    <label for="">Nome</label>
+                    <input type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="form-section">
+                    <label for="">E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-section">
+                    <label for="">Senha</label>
+                    <input type="password" placeholder="Digite sua senha">
+                </div>
+                <p>Quer ajuda para criar um senha?<span id="active-new-password">Click aqui</span></p>
+                <div class="form-password-container hide">
+                    <h5>Selecione as opções que voce deseja</h5>
+                    <div class="radio">  
+                        <label >Quantidade de caracteres</label>
+                        <input type="number" id="caracters-length" placeholder="10"/>
+                        
+                    </div>
+                        <div class="radio">  
+                            <label >Letras:</label>
+                            <input type="checkbox" id="set-letters"/>
+                            
+                        </div>
+                        <div class="radio">  
+                            <label>Números:</label>
+                            <input type="checkbox" id="set-numbers"/>
+                            
+                        </div>
+                        <div class="radio">  
+                            <label>Simbolos</label>
+                            <input type="checkbox" id="set-symbols"/>
+                            
+                        </div>
+                        <button id="btn-criar-senha">Criar Senha</button>
+                </div>
+                <div class="new-password-container hide">
+                    <h5>Aqui esta sua senha</h5>
+                    <p id="senha">Senha</p>
+                </div>
+                <div class="form-section">
+                    <label for="">Confirmação de senha</label>
+                    <input type="password" placeholder="Confirme sua senha">
+                </div>
+                <input type="submit" value="Cadastrar">
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>

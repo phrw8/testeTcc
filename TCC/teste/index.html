@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  type="text/css" href="../fontawesome-free-6.5.1-web/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="header">
+        <div class="logo">
+          <span>Aged care</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <div class="profile">
+        <a href=""><img class="img-user" src="img/perfil tecnico.jpg" alt=""></a>
+        <div class="text-profile">
+            <p class="bold">Gustavo</p>
+            <p>Tec</p>
+        </div>
+        
+      </div>
+      <ul>
+        <li>
+          <a href="">
+            <i class="bx bx-home"></i>
+            <span class="nav-item bold">Home</span>
+          </a>
+          <span class="toolt">Home</span>
+        </li>
+        <li>
+          <a href="">
+            <i class='bx bx-search-alt'></i>
+            <span class="nav-item bold">Buscar</span>
+          </a>
+          <span class="toolt">Buscar</span>
+        <li>
+          <a href="">
+            <i class='bx bx-heart'></i>
+            <span class="nav-item bold">Técnicos</span>
+          </a>
+          <span class="toolt">Técnicos</span>
+        <li>
+          <a href="">
+            <i class='bx bx-dock-top'></i>
+            <span class="nav-item bold">Agenda</span>
+          </a>
+          <span class="toolt">Agenda</span>
+        </li>
+        <li>
+          <a href="" >
+            <i class='bx bx-cog'></i>
+            <span class="nav-item bold">Configurações</span>
+          </a>
+          <span class="toolt">Configurações</span>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="main-content">
+    <header>
+      <div class="container-head">
+        <p>Quem ama, <span class="bold">cuida</span> <i class='bx bx-plus-medical'></i></p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+      <form class="p-5 d-flex flex-column ">
+        <div class="mb-3">
+          <label class="form-label" for="">Nome Completo</label>
+          <input  class="form-control" type="text" placeholder="Nome Completo" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="">Celular</label>
+          <input class="form-control" type="number" placeholder="Celular" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="">Data de Nascimento</label>
+          <input class="form-control" type="date" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="">CPF</label>
+            <input class="form-control" type="number" placeholder="XXX.XXX.XXX-XX" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">RG</label>
+            <input class="form-control" type="number" placeholder="XX.XXX.XXX-XX" required>
+          </div>
+          <div class="d-flex ">
+          <div class="mb-3">
+            <label class="form-label" for="est-civil">Estado civil</label>
+                        <select class="form-select" name="est-civil" >
+                            <option  selected value="solteiro">Solteiro</option>
+                            <option value="casado">Casado</option>
+                            <option value="divorciado">Divorciado</option>
+                            <option value="outros">Outros</option>
+                        </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="sexo">Sexo</label>
+                        <select class="form-select" name="sexo">
+                            <option selected value="feminino">Feminino</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="outros">Outros</option>
+                        </select>
+          </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Email</label>
+            <input class="form-control" type="email" placeholder="Email"required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Endereço</label>
+            <input class="form-control" type="text" placeholder="Endereço" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Número</label>
+            <input class="form-control" type="number" placeholder="Número" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Bairro</label>
+            <input class="form-control" type="Text" placeholder="Bairro" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Cidade</label>
+            <input class="form-control" type="text" placeholder="Cidade"required> 
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="estado">Estado</label>
+                        <select class="form-select" name="estado" required>
+                          <option value="AC">Acre</option>
+                          <option value="AL">Alagoas</option>
+                          <option value="AP">Amapá</option>
+                          <option value="AM">Amazonas</option>
+                          <option value="BA">Bahia</option>
+                          <option value="CE">Ceará</option>
+                          <option value="DF">Distrito Federal</option>
+                          <option value="ES">Espírito Santo</option>
+                          <option value="GO">Goiás</option>
+                          <option value="MA">Maranhão</option>
+                          <option value="MT">Mato Grosso</option>
+                          <option value="MS">Mato Grosso do Sul</option>
+                          <option value="MG">Minas Gerais</option>
+                          <option value="PA">Pará</option>
+                          <option value="PB">Paraíba</option>
+                          <option value="PR">Paraná</option>
+                          <option value="PE">Pernambuco</option>
+                          <option value="PI">Piauí</option>
+                          <option value="RJ">Rio de Janeiro</option>
+                          <option value="RN">Rio Grande do Norte</option>
+                          <option value="RS">Rio Grande do Sul</option>
+                          <option value="RO">Rondônia</option>
+                          <option value="RR">Roraima</option>
+                          <option selected value="SC">Santa Catarina</option>
+                          <option value="SP">São Paulo</option>
+                          <option value="SE">Sergipe</option>
+                          <option value="TO">Tocantins</option>
+                        </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="radio">Disponibilidade</label>
+            <div class="d-flex gap-2">
+                <div class="radio form-check">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="Manhã"/>
+                    <label class="form-check-label" for="ar-condicionado">Manhã</label>
+                </div>
+                <div class="radio">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="Tarde"/>
+                    <label class="form-check-label" for="banco-de-couro">Tarde</label>
+                </div>
+                <div class="radio">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="Noite"/>
+                    <label class="form-check-label" for="motor-turbo">Noite</label>
+                </div>
+                <div class="radio">  
+                  <input class="form-check-input" type="checkbox" name="disponibilidade" value="Dormir"/>
+                  <label class="form-check-label" for="motor-turbo">Dormir</label>
+                </div>
+                <div class="radio">  
+                  <input class="form-check-input" type="checkbox" name="disponibilidade" value="Fim-de-semana"/>
+                  <label class="form-check-label" for="motor-turbo">Fim de semanas</label>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Até quantos km de distância do seu endereço você pretende atuar?</label>
+            <input class="form-control" type="number" placeholder="km" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="radio">Quais lugares você tem apdidão para trabalhar?</label>
+            <div class="d-flex gap-2">
+                <div class="radio form-check">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="domicilio"/>
+                    <label class="form-check-label" for="ar-condicionado">Domicílio</label>
+                </div>
+                <div class="radio">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="hospital"/>
+                    <label class="form-check-label" for="banco-de-couro">Hospital</label>
+                </div>
+                <div class="radio">  
+                    <input class="form-check-input" type="checkbox" name="disponibilidade" value="clinica"/>
+                    <label class="form-check-label" for="motor-turbo">Clínica</label>
+                </div>
+                <div class="radio">  
+                  <input class="form-check-input" type="checkbox" name="disponibilidade" value="Asilos"/>
+                  <label class="form-check-label" for="motor-turbo">Asilos</label>
+                </div>
+            </div>
+          </div>
+          <h2>Envio de documentação</h2>
+          <div class="mb-3">
+            <label class="form-label" for="">Certificado profissional</label>
+            <input class="form-control" type="file" required >
+          </div>
+  
+          <div class="mb-3 col">
+            <label class="form-label" for="">Foto de perfil (.JPEG OU PNG)</label>
+            <input class="form-control" type="file" required>
+          </div>
+        <div class="mb-3 align-self-center">
+          <input class=" btn btn-primary" type="submit">
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="text-footer">
+      <h2>AgedCare</h2>
+      <h5>Sempre proporcionando seu bem estar </h5>
+    </div>
+
+    </div>
+  </footer>
+</div>
+   
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+    
+    btn.onclick = function() {
+      sidebar.classList.toggle('active');
+    };
+ </script>
+</html>
